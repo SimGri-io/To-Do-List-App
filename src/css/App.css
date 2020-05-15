@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Girassol', cursive;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* APP CONTAINER */
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    background-color: rgb(73, 13, 112);
+    padding: 3rem;
+    width: 30rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(44, 13, 64, 0.12), 10px 15px 15px rgba(44, 13, 64, 0.31);
+}
+.titles{
+    color:rgb(229, 222, 235);
+}
+
+/* INPUT CONTAINER */
+
+.input-container{
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.input-item{
+    height: 3rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(44, 13, 64);
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(229, 222, 235);
+    font-size: 18px;
+}
+.submit-btn{
+    display: flex;
+    align-items: center;
+}
+#submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    text-transform: capitalize;
+    background-color: rgb(224, 238, 24);
+    font-size: 18px;
+}
+#submit-btn:active{
+    background-color: rgb(201, 92, 19);
+}
+
+/* LIST CONTAINER */
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    color: rgb(229, 222, 235);     
+
+}
+#clear-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 13.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    text-transform: capitalize;
+    background-color: rgb(224, 238, 24);
+    font-size: 18px;
+}
+#clear-btn:active{
+    background-color: rgb(201, 92, 19);
+}
+
+/* ITEM CONTAINER */
+
+.item-container{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    padding: 0.5rem;
+    letter-spacing: 2px;
+}
+.item-icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+.icon-m{
+    margin: 0.3rem 0.5rem;
+    transition: all 0.2s linear;
+}
+.icon-m:hover{
+    color: rgb(201, 92, 19);
+}
+
+
