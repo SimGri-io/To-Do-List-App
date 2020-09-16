@@ -7,7 +7,7 @@
 
 ![](https://media.giphy.com/media/QYeXdKkip8YkUFYPYZ/giphy.gif)
 
-![](https://media.giphy.com/media/MAo5MdeLSTfLdZDWXS/giphy.gif)
+![](https://github.com/SimGri-io/To-Do-List-App/blob/master/React-App-and-2-more-pages-Profi.gif)
 
 ## Find project preview: 
 
